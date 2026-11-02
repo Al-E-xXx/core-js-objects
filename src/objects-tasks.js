@@ -402,7 +402,7 @@ class Selector {
       (type === 'element' || type === 'id' || type === 'pseudoElement')
     ) {
       throw new Error(
-        'Element, id and pseudo-element should not occur more then one time inside the selector'
+        'Element, id and pseudo-element should not occur more than one time inside the selector'
       );
     }
 
